@@ -590,7 +590,7 @@ https://github.com/imakewebthings/waypoints/blob/master/licenses.txt
         this.$element = $(element)
     }
 
-    $.each([
+ /*    $.each([
         'innerHeight',
         'innerWidth',
         'off',
@@ -605,7 +605,7 @@ https://github.com/imakewebthings/waypoints/blob/master/licenses.txt
             var args = Array.prototype.slice.call(arguments)
             return this.$element[method].apply(this.$element, args)
         }
-    })
+    }) */
 
     $.each([
         'extend',
